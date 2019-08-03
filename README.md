@@ -54,8 +54,8 @@ TBA
 
 
 ## **References**
-- [Sayed El-Esawy's library](https://github.com/yousefwalid/ACMlib/blob/master/Sayed%20Library.pdf)
-- [Momentum's library](https://github.com/OmarBazaraa/Competitive-Programming)
+- [Sayed Alesawy's library](https://github.com/yousefwalid/ACMlib/blob/master/Sayed%20Library.pdf)
+- [Omar Bazaraa's library](https://github.com/OmarBazaraa/Competitive-Programming)
 - [Coach Mohamed Abdelwahab's library](https://github.com/yousefwalid/ACMlib/blob/master/Coach%20Library.pdf)
 
 
