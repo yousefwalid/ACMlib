@@ -1,63 +1,63 @@
-# ACMlib
-Collection of algorithms I personally use a lot written in C++ for problem solving
+# Competitive Programming Code Library
+Collection of algorithms I personally use a lot written in C++ for problem solving.
 
-There are useful formulas and identities in the [*Theoretical Computer Science Cheat Sheet*](https://github.com/yousefwalid/ACMlib/blob/master/Cheat%20Sheet.pdf)
+There are useful formulas and identities in the [*Theoretical Computer Science Cheat Sheet*](external/math_cheat_sheet.pdf)
 
 ## **Contents**
+- [**Data Structures**](#data-structures)
+- [**Dynamic Programming**](#dynamic-programming)
+- [**Geometry**](#geometry)
+- [**Graphs**](#graphs)
+- [**Maths**](#math)
+- [**Misc**](#misc)
 
-### **Datastructures**
-- [Binary Indexed Tree/Fenwick Tree](https://github.com/yousefwalid/ACMlib/blob/master/Datastructures%20%26%20Strings/BIT.cpp)
-- [Segment Tree](https://github.com/yousefwalid/ACMlib/blob/master/Datastructures%20%26%20Strings/Segment%20Tree.cpp)
-- [Sparse Table](https://github.com/yousefwalid/ACMlib/blob/master/Datastructures%20%26%20Strings/Sparse%20Table.cpp)
-
-### **Strings**
-- [Trie](https://github.com/yousefwalid/ACMlib/blob/master/Datastructures%20%26%20Strings/Trie.cpp)
+### **Data Structures**
+- [Binary Indexed Tree/Fenwick Tree](src/data_structures/BIT.cpp)
+- [Segment Tree](src/data_structures/segment_tree.cpp)
+- [Sparse Table](src/data_structures/sparse_table.cpp)
+- [Trie](src/data_structures/trie.cpp)
 
 ### **Dynamic Programming**
-- [LCS](https://github.com/yousefwalid/ACMlib/blob/master/Dynamic%20Programming/LCS.cpp)
-- [LIS O(n^2) with path](https://github.com/yousefwalid/ACMlib/blob/master/Dynamic%20Programming/LIS%20O(n%5E2)%20-%20Path.cpp)
-- [LIS O(nlog(n))](https://github.com/yousefwalid/ACMlib/blob/master/Dynamic%20Programming/LIS%20O(nlogn).cpp)
+- [LCS](src/dynamic_programming/LCS.cpp)
+- [LIS O(n^2) with path](src/dynamic_programming/LIS_O(n^2)-path.cpp)
+- [LIS O(nlog(n))](src/dynamic_programming/LIS_O(nlogn).cpp)
 
 ### **Geometry**
 TBA
 
 ### **Graphs**
-- [Bellman Ford](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/Bellman.cpp)
-- [Breadth First Search (BFS)](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/BFS.cpp)
-- [Depth First Search (DFS)](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/DFS.cpp)
-- [Dijkstra](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/Dijkstra.cpp)
-- [Disjoint Set Union (DSU)](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/DSU.cpp)
-- [Floyd Warshall](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/Floyd.cpp)
-- [Bipartite Graph Check](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/isBipartite%20Graph.cpp)
-- [Kruskall's MST w/ DSU](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/Kruskall's%20MST.cpp)
-- [LCA O(log(n)) w/ K'th ancestor](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/LCA%20O(logn).cpp)
-- [LCA O(1)](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/LCA%20O(1).cpp)
-- [Longest path in Weighted Graphs](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/Longest%20Path%20Weighted.cpp)
-- [Tree Diameter](https://github.com/yousefwalid/ACMlib/blob/master/Graphs/Tree%20Diameter.cpp)
+- [Bellman Ford](src/graphs/bellman.cpp)
+- [Breadth First Search (BFS)](src/graphs/BFS.cpp)
+- [Depth First Search (DFS)](src/graphs/DFS.cpp)
+- [Dijkstra](src/graphs/dijkstra.cpp)
+- [Disjoint Set Union (DSU)](src/graphs/DSU.cpp)
+- [Floyd Warshall](src/graphs/floyd.cpp)
+- [Bipartite Graph Check](src/graphs/is_bipartite_graph.cpp)
+- [Kruskall's MST](src/graphs/kruskall's_MST.cpp)
+- [LCA O(log(n)) w/ K'th Ancestor](src/graphs/LCA_O(logn).cpp)
+- [LCA O(1)](src/graphs/LCA_O(1).cpp)
+- [Longest path in Weighted Graphs](src/graphs/longest_weighted_path.cpp)
+- [Tree Diameter](src/graphs/tree_diameter.cpp)
 
 ### **Maths**
-- [Extended Euclidean](https://github.com/yousefwalid/ACMlib/blob/master/Maths/ExtendedEuclid.cpp)
-- [Fastpower with mod](https://github.com/yousefwalid/ACMlib/blob/master/Maths/Fastpower%20with%20mod.cpp)
-- [IsPrime check](https://github.com/yousefwalid/ACMlib/blob/master/Maths/IsPrime.cpp)
-- [nCr with mod](https://github.com/yousefwalid/ACMlib/blob/master/Maths/nCr%20with%20mod.cpp)
-- [Prime Factorization](https://github.com/yousefwalid/ACMlib/blob/master/Maths/Prime%20Factorization.cpp)
-- [Sieve](https://github.com/yousefwalid/ACMlib/blob/master/Maths/Sieve.cpp)
-- [Smallest Prime Factor](https://github.com/yousefwalid/ACMlib/blob/master/Maths/Smallest%20Prime%20Factor.cpp)
-- [Misc.](https://github.com/yousefwalid/ACMlib/blob/master/Maths/Misc.cpp)
+- [Extended Euclidean](src/math/extended_euclid.cpp)
+- [Fastpower with mod](src/math/fastpower_with_mod.cpp)
+- [IsPrime check](src/math/is_prime.cpp)
+- [nCr with mod](src/math/nCr_with_mod.cpp)
+- [Prime Factorization](src/math/prime_factorization.cpp)
+- [Sieve](src/math/sieve.cpp)
+- [Smallest Prime Factor](src/math/smallest_prime_factor.cpp)
+- [Misc](src/math/misc.cpp)
 
 
 ### **Misc**
-- [DigitSum](https://github.com/yousefwalid/ACMlib/blob/master/Misc/DigitSum.cpp)
-- [IsPalindrome check](https://github.com/yousefwalid/ACMlib/blob/master/Misc/IsPalindrome.cpp)
-- [Matrix Power](https://github.com/yousefwalid/ACMlib/blob/master/Misc/Matrix%20Power.cpp)
-- [toBinary](https://github.com/yousefwalid/ACMlib/blob/master/Misc/toBinary.cpp)
+- [DigitSum](src/misc/digit_sum.cpp)
+- [IsPalindrome check](src/misc/is_palindrome.cpp)
+- [Matrix Power](src/misc/matrix_power.cpp)
+- [toBinary](src/misc/to_binary.cpp)
 
 
 ## **References**
-- [Sayed Alesawy's library](https://github.com/yousefwalid/ACMlib/blob/master/Sayed%20Library.pdf)
-- [Omar Bazaraa's library](https://github.com/OmarBazaraa/Competitive-Programming)
-- [Coach Mohamed Abdelwahab's library](https://github.com/yousefwalid/ACMlib/blob/master/Coach%20Library.pdf)
-
-
-
-
+- [Sayed Alesawy library](external/sayed_library.pdf)
+- [Momentum's library](external/momentum_library.pdf)
+- [Coach Mohamed Abdelwahab's library](external/coach_library.pdf)
