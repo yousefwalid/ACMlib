@@ -13,13 +13,13 @@ int FindSet(int n) // Use FindSet instead of par
 {
 	if(par[n] == n)
 		return n;
-	return par[n] = find_set(par[n]);
+	return par[n] = FindSet(par[n]);
 }
  
 void Union(int x,int y)
 {
-	x = find_set(x);
-	y = find_set(y);
+	x = FindSet(x);
+	y = FindSet(y);
 	if(x==y)
 		return;
 	par[x]=y;
