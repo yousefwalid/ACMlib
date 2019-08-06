@@ -1,7 +1,7 @@
 # Competitive Programming Code Library
 Collection of algorithms I personally use a lot written in C++ for problem solving.
 
-There are useful formulas and identities in the [*Theoretical Computer Science Cheat Sheet*](external/math_cheat_sheet.pdf)
+There are useful formulae and identities in the [*Theoretical Computer Science Cheat Sheet*](external/math_cheat_sheet.pdf)
 
 ## **Contents**
 - [**Data Structures**](#data-structures)
