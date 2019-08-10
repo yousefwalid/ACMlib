@@ -8,7 +8,7 @@ There are useful formulae and identities in the [*Theoretical Computer Science C
 - [**Dynamic Programming**](#dynamic-programming)
 - [**Geometry**](#geometry)
 - [**Graphs**](#graphs)
-- [**Maths**](#math)
+- [**Maths**](#maths)
 - [**Misc**](#misc)
 
 ### **Data Structures**
@@ -33,7 +33,7 @@ TBA
 - [Disjoint Set Union (DSU)](src/graphs/DSU.cpp)
 - [Floyd Warshall](src/graphs/floyd.cpp)
 - [Bipartite Graph Check](src/graphs/is_bipartite_graph.cpp)
-- [Kruskall's MST](src/graphs/kruskall's_MST.cpp)
+- [Kruskall's MST](src/graphs/kruskall_s_MST.cpp)
 - [LCA O(log(n)) w/ K'th Ancestor](src/graphs/LCA_O(logn).cpp)
 - [LCA O(1)](src/graphs/LCA_O(1).cpp)
 - [Longest path in Weighted Graphs](src/graphs/longest_weighted_path.cpp)
