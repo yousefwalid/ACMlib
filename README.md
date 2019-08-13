@@ -34,6 +34,7 @@ TBA
 - [Floyd Warshall](src/graphs/floyd.cpp)
 - [Bipartite Graph Check](src/graphs/is_bipartite_graph.cpp)
 - [Kruskall's MST](src/graphs/kruskall_s_MST.cpp)
+- [Tarjan's SCC recursive](src/graphs/tarjans_SCC.cpp)
 - [LCA O(log(n)) w/ K'th Ancestor](src/graphs/LCA_O(logn).cpp)
 - [LCA O(1)](src/graphs/LCA_O(1).cpp)
 - [Longest path in Weighted Graphs](src/graphs/longest_weighted_path.cpp)
@@ -41,6 +42,7 @@ TBA
 
 ### **Maths**
 - [Extended Euclidean](src/math/extended_euclid.cpp)
+- [Euler's Totient Function (Euler's phi)](src/math/euler_phi.cpp)
 - [Fastpower with mod](src/math/fastpower_with_mod.cpp)
 - [IsPrime check](src/math/is_prime.cpp)
 - [nCr with mod](src/math/nCr_with_mod.cpp)
