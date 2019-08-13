@@ -5,7 +5,7 @@ component this node inside*/
 ,ind, lowLink;
 stack<int> st;
 vector<bool> inst;
-vector<vector<int> > adj /*The intial graph*/;
+vector<vector<int> > adj /*The intial graph*/;  /// Resize it with n+1 in main
 int idx = 0; //must be intialized by zero;
 
 void tarjanSCC(int i) {
