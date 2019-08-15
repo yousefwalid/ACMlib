@@ -7,15 +7,12 @@ void init()
 {
     for(int i=0;i<n;i++)
         for(int j=0;j<n;j++)
-            adj[i][j] = (i==j? 0 : oo); // Sets adj[u][u] = 0, adj[u][u] = oo if no edge exists
+            adj[i][j] = (i==j? 0 : oo); // Sets adj[u][u] = 0, adj[u][v] = oo if no edge exists
 }
 
 void floyd()
 {
-    for(int i=0;i<n;i++)
-        for(int j=0;j<n;j++)
-            adj[i][j] = oo;
-
+    init();
     for(int k=0;k<n;k++)
         for(int i=0;i<n;i++)
             for(int j=0;j<n;j++)
